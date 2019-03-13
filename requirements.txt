@@ -1,0 +1,12 @@
+Flask>=0.9
+requests
+datetime
+pytz
+gunicorn
+gevent
+raven
+blinker
+bs4
+pytesseract
+pillow
+opencv-python

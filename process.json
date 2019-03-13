@@ -1,0 +1,15 @@
+{
+    "apps": [
+        {
+            "name": "splash with pm2",
+            "script": "/app/bin/splash",
+            "cwd": "/home/ubuntu",
+            "interpreter": "python3",
+            "interpreter_args": "",
+            "instances": 1,
+            "exec_mode": "fork",
+            "args": "--port 8050 --disable-browser-caches --slots 10 --max-timeout 3600 --maxrss 1000 --proxy-profiles-path /etc/splash/proxy-profiles --js-profiles-path /etc/splash/js-profiles --filters-path /etc/splash/filters --lua-package-path /etc/splash/lua_modules/?.lua",
+            "max_memory_restart": "1200M"
+        }
+    ]
+}
