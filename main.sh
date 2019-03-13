@@ -1,3 +1,3 @@
 #!/bin/bash
-pm2 start pm2_splash.json
+pm2 start pm2_process.json
 ./server.sh
